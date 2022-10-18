@@ -1,3 +1,24 @@
 body{
 	background: #1B1B1B;
 }
+#main_nav{
+	text-align: right;
+	margin: 1rem;
+}
+
+.links{
+	text-decoration: none;
+	color: whitesmoke;
+	padding: 10px;
+	font-family: sans-serif;
+	font-size: small;
+}
+
+#adv_search{
+	border: 1px solid #3B86D0;
+	background: #3B86D0;
+}
+#google{
+	display: flex;
+	align-items: center;
+}
