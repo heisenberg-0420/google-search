@@ -7,15 +7,21 @@
     </head>
     <body>
         <nav id="main_nav">
-            <a class="links" href="" name="images">Images</a>
+            <a class="links" href="googleImages.html" name="images">Images</a>
             <a id="adv_search" class="links" href="" name="advanced">Advanced Search</a>
         </nav>
     	<div id="google">
-    		<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png" alt="google logo">
-        	<form action="https://www.google.com/search">
-            	<input type="text" name="q">
-            	<input type="submit" value="Google Search">
-                <input type="submit" value="I'm Feeling Lucky">  		
+            <div id="logo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png" alt="google logo">
+            </div>
+        	<form action="https://www.google.com/search" method="GET" role="search">
+            	<div id="search">
+                    <input type="text" name="q">
+                </div>
+                <div id=search_buttons>
+                   	<input type="submit" value="Google Search">
+                    <input type="submit" value="I'm Feeling Lucky">
+                </div>  		
 	        </form>
     	</div>
     </body>
