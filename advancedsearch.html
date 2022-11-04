@@ -14,5 +14,44 @@
         	<p id="search_heading">Advanced Search</p>
         </div>
         <div class="borders"></div>
+        <div id="forum_indent">
+        	<div class="forum">
+        		<form action="https://www.google.com/search" method="GET" name="f">
+        			<div class="labels">
+        				<span>Find pages with...</span>
+        			</div>
+        			<div class="input_fields">&nbsp; </div>
+        			<div id="search_fields">
+        				<div class="labels">
+        					<label for="all">all these words: </label>
+        				</div>
+        				<div class="input_fields">
+        					<input class="input_box" type="text" name="all_words" id="all">
+       					</div>
+       					<div class="labels">
+       						<label for="exact">this exact word or phrase:</label>
+       					</div>
+       					<div class="input_fields">
+       						<input class="input_box" type="text" name="exact_word" id="exact">
+       					</div>
+        				<div class="labels">
+        					<label for="any">any of these words</label>
+        				</div>
+        				<div class="input_fields">
+        					<input type="text" class="input_box" name="any_word" id="any">
+        				</div>
+        				<div class="labels">
+        					<label for="none">none of these words:</label>
+        				</div>
+        				<div class="input_fields">
+        					<input type="text" class="input_box" id="none" name="no_word">
+        				</div>
+        			</div>
+        			<div class="input_fields">
+        				<input type="submit" name="advanced_search" value="Advanced Search" id="adv_search_button">
+        			</div>
+        		</form>
+        	<div class="forum"></div>
+        </div>
 	</body>
 </html>
