@@ -47,11 +47,31 @@ body{
 
 .forum{
 	display: flex;
+	width: 80%;
 }
 
 .input_box{
 	background: #202124;
     border: 1px solid #5f6368;
     color: #bdc1c6;
-    width: 100%;
+    width: 99%;
+    padding: none;
+    height: inherit;
+}
+
+.labels, .input_fields, #span{
+	display: inline-block;
+	vertical-align: middle;
+	height: 23px;
+	margin: 8px 0;
+}
+
+.labels{
+	width: 32%;
+	font-size: 13px;
+	color: #bdc1c6;
+}
+
+.input_fields{
+	width: 67%;
 }
