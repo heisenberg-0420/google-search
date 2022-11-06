@@ -20,10 +20,45 @@ body{
 	border: 1px solid #3B86D0;
 	background: #3B86D0;
 }
-#google{
-	display: flex;
+
+.google, #form_box{
+	flex-shrink: 0;
+    box-sizing: border-box;
+    display: flex;
 	align-items: center;
+	flex-direction: column;
 }
+
+.google{
+	max-height: 290px;
+	min-height: 260px;
+	height: calc(100% - 560px);
+}
+
 #images_text{
 	color: #3B86D0;
+}
+
+#logo_box{
+	max-height: 92px;
+	position: relative;
+	margin-top: auto;
+	height: 100%;
+	display: block;
+}
+
+#logo{
+	max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+}
+
+#form_box{
+	padding: 20px;
+	max-height: 160px;
+}
+
+#search_buttons{
+	padding-top: 20px;
 }
