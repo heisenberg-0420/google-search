@@ -37,6 +37,11 @@ body{
 
 #images_text{
 	color: #3B86D0;
+	position: absolute;
+	bottom: 0;
+	left: 215px;
+	white-space: nowrap;
+	font: 16px/16px roboto-regular, arial, sans-serif;
 }
 
 #logo_box{
@@ -74,7 +79,7 @@ body{
 	border: none;
 	padding: none;
 	width: 85%;
-	color: whitesmoke;
+	color: #e8eaed;
 	font-weight: light;
 	font-size: medium;
 }
@@ -102,4 +107,19 @@ body{
 	width: 20px;
 	height: 20px;
 	margin: 12px 0;
+}
+
+.button{
+	margin: 11px 4px;
+	padding: 0 16px;
+	background-color: #303134;
+	border: 1px solid #303134;
+	border-radius: 4px;
+	color: #e8eaed;
+	line-height: 27px;
+	height: 36px;
+	min-width: 54px;
+	text-align: center;
+	user-select: none;
+	cursor: pointer;
 }
