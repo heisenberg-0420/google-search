@@ -59,6 +59,47 @@ body{
 	max-height: 160px;
 }
 
+#search{
+	display: flex;
+	border: 1px solid #5f6368;
+	height: 44px;
+	width: 35rem;
+	max-width: 584px;
+	border-radius: 24px;
+}
+
+#bar{
+	height: 90%;
+	background: #202124;
+	border: none;
+	padding: none;
+	width: 85%;
+	color: whitesmoke;
+	font-weight: light;
+	font-size: medium;
+}
+
+#bar:focus{
+	outline: none;
+}
+
+#bar:focus-within{
+	outline: none;
+	background-color: #202124;
+}
+
 #search_buttons{
 	padding-top: 20px;
+}
+
+#icon_box{
+	padding: 0 13px;
+	height: 100%;
+	line-height: 20px;
+}
+
+#icon{
+	width: 20px;
+	height: 20px;
+	margin: 12px 0;
 }
