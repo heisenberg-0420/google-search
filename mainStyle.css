@@ -123,3 +123,8 @@ body{
 	user-select: none;
 	cursor: pointer;
 }
+
+.buttons_center{
+	display: flex;
+	justify-content: center;
+}
